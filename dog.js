@@ -19,8 +19,9 @@ function addDoggos() {
         const img = document.createElement("img");
         img.src = processedResponse.message;
         img.alt = "Cute Dog";
+        img.classList.add("dog-img");
         doggos.appendChild(img);
-        spinner.setAttribute("style","display: none");
+        spinner.setAttribute("style","");
     });
     spinner.setAttribute("style","display: block");
 }
