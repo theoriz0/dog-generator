@@ -30,6 +30,7 @@ function getBreedsList() {
         .then(function(processedPromise) {
             breedsList = processedPromise.message;
             updateSelect(breedsList);
+            document.querySelector('.breed-select').removeAttribute("disabled");
         })
 }
 

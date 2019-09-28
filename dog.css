@@ -7,6 +7,20 @@
     position: fixed;
 }
 
+.breed-select {
+    height: 32px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.select-container {
+    margin-bottom: 8px;
+}
+
+.select-container>label {
+    font-size: 16px;
+}
+
 .main-container {
     margin: auto;
     width: 700px;
